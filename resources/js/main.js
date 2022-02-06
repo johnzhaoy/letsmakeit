@@ -168,7 +168,7 @@ function showLeft() {
   hour = timerFilter(hour);
   minute = timerFilter(minute);
   second = timerFilter(second);
-
+  console.log(endTime)
   setTimeout(showLeft, 1000);
   return (hour + "hours" + minute + "minutes" + second + "seconds" + "till the end!")
 

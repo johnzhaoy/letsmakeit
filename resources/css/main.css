@@ -1,0 +1,101 @@
+body{
+    /*background-color: #454545;*/
+    line-height: 1.7;
+}
+
+a{
+    text-decoration: none;
+}
+a,body{
+    color: #eee;
+}
+.side-bar{
+    float: left;
+    width: 20%;
+    position: fixed;
+}
+.side-bar .nav a,
+.side-bar .tag-list a{
+    display: block;
+    padding: 5px;
+    color: #888;
+    transition: color 200ms;
+}
+.side-bar .nav a{
+    font-weight: 700;
+}
+
+.side-bar .nav a:hover,
+.side-bar .tag-list a:hover{
+    color: #eee;
+}
+
+.side-bar>*{
+    padding: 10px 15px;
+}
+
+.main{
+    float: right;
+    width: 80%;
+    color: #454545;
+}
+
+.header .logo{
+    border: 5px solid #eee;
+    padding: 10px 20px;
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+
+.article-list,
+.article{
+    margin-right: 30%;
+    background-color: white;
+    padding: 20px 30px;
+}
+
+.article-list .item{
+    margin-bottom: 25px;
+}
+.article-list .item .title,
+.article .title{
+    color: #454545;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.article-list .item .status,
+.article .status{
+    font-size: 13px;
+    color: #bbb;
+}
+
+.article-list .item > *,
+.article .item> *{
+    margin: 10px 0;
+}
+
+.article .content{
+    text-indent: 2em;
+}
+
+.content-center{
+    text-align: center;
+}
+
+#progressbar {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+}
+
+#progressbar>div {
+    background-color: greenyellow;
+    width: 40%;
+    /* Adjust with JavaScript */
+    height: 20px;
+    border-radius: 10px;
+}
