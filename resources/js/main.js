@@ -23,7 +23,7 @@ function showLeft() {
   second = timerFilter(second);
   console.log(endTime)
   setTimeout(showLeft, 1000);
-  return (hour + "hours" + minute + "minutes" + second + "seconds" + "till the end!")
+  return (hour + " hours " + minute + " minutes " + second + " seconds " + "till the end!")
 
   //给小于10的数值前面添加 0
   function timerFilter(params) {
