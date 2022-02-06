@@ -86,14 +86,14 @@ a,body{
 }
 
 #progressbar {
-    background-color: black;
+    background-color: lightgrey;
     border-radius: 13px;
     /* (height of inner div) / 2 + padding */
     padding: 3px;
 }
 
 #progressbar>div {
-    background-color: greenyellow;
+    background-color: #219653;
     width: 40%;
     /* Adjust with JavaScript */
     height: 20px;
