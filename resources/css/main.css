@@ -100,7 +100,25 @@ a,body{
     border-radius: 10px;
 }
 
+#progressbar100>div {
+    background-color: #219653;
+    width: 100%;
+    /* Adjust with JavaScript */
+    height: 20px;
+    border-radius: 10px;
+}
+
 .countdown{
     background-color: mediumpurple;
     color: white;
+}
+
+.done-that{
+    border: 5px solid #eee;
+    padding: 10px 20px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 5px;
+    line-height: 1;
+    background-color: #219653;
 }
