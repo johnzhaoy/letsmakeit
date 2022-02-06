@@ -101,6 +101,7 @@ function completeItem() {
 
   parent.removeChild(item);
   target.insertBefore(item, target.childNodes[0]);
+  window.open("info.html","newWindow")
 }
 
 function addItemToDOMSimplified(list, completed, text){
