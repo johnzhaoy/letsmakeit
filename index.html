@@ -7,30 +7,48 @@
 	<link rel="stylesheet" href="http://cdn.bootcss.com/normalize/5.0.0/normalize.min.css">
 	<link rel="stylesheet" href="resources/css/main.css">
 	<title>Index</title>
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 <div class="main">
-	<div class="article-list">
-		<div class="item">
-			<a href="article.html" class="title">Bring Your Own Bag</a>
-			<div class="status">Target: 10,000 people</div>
-			<div class="content">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nemo ea, magnam qui incidunt maxime commodi eveniet quam soluta, deserunt molestiae officiis adipisci assumenda, rerum, exercitationem architecto natus nihil quia.
+	<div class="flex flex-col ...">
+		<div class="article-list">
+			<div class="item countdown">
+				<p id="countdown" class="content-center"></p>
 			</div>
 		</div>
-		<div id="progressbar">
-			<div></div>
-		</div>
+		<div class="article-list">
+			<div class="item">
+				<img class="absolute top-30 left-10 ..." src="img/Group 4.png" style="width: 15%;">
+				<img class="absolute bottom-20 left-10 ..." src="img/Group 5.png" style="width: 15%;">
+				<img class="absolute bottom-20 right-10 ..." src="img/Group 6.png" style="width: 15%;">
 
-		<div class="item">
+				<a href="article.html" class="title">Bring Your Own Bag</a>
+				<div class="status">Target: 10,000 people</div>
+				<div class="content">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nemo ea, magnam qui incidunt maxime commodi eveniet quam soluta, deserunt molestiae officiis adipisci assumenda, rerum, exercitationem architecto natus nihil quia.
+				</div>
+			</div>
+			<div id="progressbar">
+				<div></div>
+			</div>
+
+			<div class="item">
+				<div class="content-center">
+					6,000 people have finished it.
+				</div>
+			</div>
+
+
+
+		</div>
+		<div class="article-list">
 			<div class="content-center">
-				6,000 people have finished it.
+				<button type="button" class="w-26 rounded-full border-solid border-2 border-indigo-600...">Done that &#128155</button>
 			</div>
 		</div>
-
-
-
 	</div>
 </div>
+<script src="resources/js/main.js"></script>
 </body>
 </html>
